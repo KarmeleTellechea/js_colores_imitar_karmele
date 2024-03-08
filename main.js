@@ -3,3 +3,7 @@ function changeColor() {
     square.classList.remove('red')
     square.classList.add('blue')
 }
+
+const button = document.getElementById('button')
+button.onclick = changeColor
+
